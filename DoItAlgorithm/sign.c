@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main5(void) {
+	int n;
+
+	printf("정수를 입력하세요 : ");
+	scanf_s("%d", &n);
+
+	if (n > 0) {
+		printf("이 수는 양수입니다.");
+	}
+	else if(n < 0){
+		printf("이 수는 음수입니다.");
+	}
+	else {
+		printf("이 수는 0입니다.");
+	}
+
+	return 0;
+}
