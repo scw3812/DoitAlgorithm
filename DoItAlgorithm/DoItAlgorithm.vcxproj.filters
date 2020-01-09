@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\chap01">
       <UniqueIdentifier>{1d44ec6c-4ec7-4aa7-91fb-ce95020bc8df}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chap02">
+      <UniqueIdentifier>{b1e32bd9-f6fa-4432-8779-878ad22f1568}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="max3.c">
@@ -50,6 +53,45 @@
     </ClCompile>
     <ClCompile Include="triangleLB.c">
       <Filter>소스 파일\chap01</Filter>
+    </ClCompile>
+    <ClCompile Include="intary.c">
+      <Filter>소스 파일\chap02</Filter>
+    </ClCompile>
+    <ClCompile Include="intary_init.c">
+      <Filter>소스 파일\chap02</Filter>
+    </ClCompile>
+    <ClCompile Include="intdynamic.c">
+      <Filter>소스 파일\chap02</Filter>
+    </ClCompile>
+    <ClCompile Include="intary_dynamic.c">
+      <Filter>소스 파일\chap02</Filter>
+    </ClCompile>
+    <ClCompile Include="ary_max.c">
+      <Filter>소스 파일\chap02</Filter>
+    </ClCompile>
+    <ClCompile Include="ary_max_rand.c">
+      <Filter>소스 파일\chap02</Filter>
+    </ClCompile>
+    <ClCompile Include="rev_ary.c">
+      <Filter>소스 파일\chap02</Filter>
+    </ClCompile>
+    <ClCompile Include="card_conv.c">
+      <Filter>소스 파일\chap02</Filter>
+    </ClCompile>
+    <ClCompile Include="practice2.c">
+      <Filter>소스 파일\chap02</Filter>
+    </ClCompile>
+    <ClCompile Include="prime1.c">
+      <Filter>소스 파일\chap02</Filter>
+    </ClCompile>
+    <ClCompile Include="prime2.c">
+      <Filter>소스 파일\chap02</Filter>
+    </ClCompile>
+    <ClCompile Include="prime3.c">
+      <Filter>소스 파일\chap02</Filter>
+    </ClCompile>
+    <ClCompile Include="dayofyear.c">
+      <Filter>소스 파일\chap02</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -229,7 +229,7 @@ void nrpira(int n) {
 }
 
 
-int main(void) {
+int main3(void) {
 	//printf("max3(%d, %d, %d, %d) = %d\n", 4, 3, 2, 1, max4(4, 3, 2, 1));
 	//printf("min3(%d, %d, %d) = %d\n", 3, 2, 1, min3(3, 2, 1));
 	//printf("min4(%d, %d, %d, %d) = %d\n", 4, 3, 2, 1, min4(4, 3, 2, 1));
