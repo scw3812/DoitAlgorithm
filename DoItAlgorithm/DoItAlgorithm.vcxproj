@@ -125,6 +125,7 @@
   <ItemGroup>
     <ClCompile Include="ary_max.c" />
     <ClCompile Include="ary_max_rand.c" />
+    <ClCompile Include="bin_search.c" />
     <ClCompile Include="card_conv.c" />
     <ClCompile Include="dayofyear.c" />
     <ClCompile Include="dbl_digit.c" />
@@ -145,6 +146,9 @@
     <ClCompile Include="prime3.c" />
     <ClCompile Include="rev_ary.c" />
     <ClCompile Include="sign.c" />
+    <ClCompile Include="ssearch1.c" />
+    <ClCompile Include="ssearch2.c" />
+    <ClCompile Include="ssearch_sen.c" />
     <ClCompile Include="sum_for.c" />
     <ClCompile Include="sum_for_pos.c" />
     <ClCompile Include="sum_while.c" />

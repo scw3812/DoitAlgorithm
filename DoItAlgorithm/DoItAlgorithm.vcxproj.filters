@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\chap02">
       <UniqueIdentifier>{b1e32bd9-f6fa-4432-8779-878ad22f1568}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chap03">
+      <UniqueIdentifier>{475c6d10-37a4-4b8a-b9cb-aedd3c6e248b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="max3.c">
@@ -98,6 +101,18 @@
     </ClCompile>
     <ClCompile Include="practice3.c">
       <Filter>소스 파일\chap02</Filter>
+    </ClCompile>
+    <ClCompile Include="ssearch1.c">
+      <Filter>소스 파일\chap03</Filter>
+    </ClCompile>
+    <ClCompile Include="ssearch2.c">
+      <Filter>소스 파일\chap03</Filter>
+    </ClCompile>
+    <ClCompile Include="ssearch_sen.c">
+      <Filter>소스 파일\chap03</Filter>
+    </ClCompile>
+    <ClCompile Include="bin_search.c">
+      <Filter>소스 파일\chap03</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

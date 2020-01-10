@@ -57,7 +57,7 @@ Date Before(Date x, int n) {
 	return x;
 }
 
-int main(void) {
+int main2_15(void) {
 	Date date = DateOf(2020, 11, 10);
 	Date a = After(date, 25);
 	printf("%d/%d/%d\n", a.y, a.m, a.d);
