@@ -93,5 +93,11 @@
     <ClCompile Include="dayofyear.c">
       <Filter>소스 파일\chap02</Filter>
     </ClCompile>
+    <ClCompile Include="physical.c">
+      <Filter>소스 파일\chap02</Filter>
+    </ClCompile>
+    <ClCompile Include="practice3.c">
+      <Filter>소스 파일\chap02</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

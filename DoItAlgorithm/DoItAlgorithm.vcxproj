@@ -136,8 +136,10 @@
     <ClCompile Include="max3comb.c" />
     <ClCompile Include="med3.c" />
     <ClCompile Include="multi99table.c" />
+    <ClCompile Include="physical.c" />
     <ClCompile Include="practice.c" />
     <ClCompile Include="practice2.c" />
+    <ClCompile Include="practice3.c" />
     <ClCompile Include="prime1.c" />
     <ClCompile Include="prime2.c" />
     <ClCompile Include="prime3.c" />

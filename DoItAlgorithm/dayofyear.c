@@ -17,7 +17,7 @@ int dayofyear(int y, int m, int d) {
 	return d;
 }
 
-int main(void) {
+int main2_13(void) {
 	int year, month, day;
 	int retry;
 	do {
