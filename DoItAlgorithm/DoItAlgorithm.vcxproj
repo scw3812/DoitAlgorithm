@@ -126,6 +126,8 @@
     <ClCompile Include="ary_max.c" />
     <ClCompile Include="ary_max_rand.c" />
     <ClCompile Include="bin_search.c" />
+    <ClCompile Include="bsearch1.c" />
+    <ClCompile Include="bsearch2.c" />
     <ClCompile Include="card_conv.c" />
     <ClCompile Include="dayofyear.c" />
     <ClCompile Include="dbl_digit.c" />

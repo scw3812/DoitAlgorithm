@@ -39,7 +39,7 @@ int bin_search2(const int a[], int n, int key) {
 	return -1;
 }
 
-int main(void) {
+int main3_3(void) {
 	int i, nx, ky, idx;
 	int* x;
 	puts("이진 검색");
