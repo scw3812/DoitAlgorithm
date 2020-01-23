@@ -128,6 +128,7 @@
     <ClCompile Include="bin_search.c" />
     <ClCompile Include="bsearch1.c" />
     <ClCompile Include="bsearch2.c" />
+    <ClCompile Include="bsearch3.c" />
     <ClCompile Include="card_conv.c" />
     <ClCompile Include="dayofyear.c" />
     <ClCompile Include="dbl_digit.c" />
@@ -135,6 +136,7 @@
     <ClCompile Include="intary_dynamic.c" />
     <ClCompile Include="intary_init.c" />
     <ClCompile Include="intdynamic.c" />
+    <ClCompile Include="kuku.c" />
     <ClCompile Include="max3.c" />
     <ClCompile Include="max3comb.c" />
     <ClCompile Include="med3.c" />
@@ -143,6 +145,7 @@
     <ClCompile Include="practice.c" />
     <ClCompile Include="practice2.c" />
     <ClCompile Include="practice3.c" />
+    <ClCompile Include="practice4.c" />
     <ClCompile Include="prime1.c" />
     <ClCompile Include="prime2.c" />
     <ClCompile Include="prime3.c" />
