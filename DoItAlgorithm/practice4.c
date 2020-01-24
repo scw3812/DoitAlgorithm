@@ -100,7 +100,7 @@ void long_search() {
 	free(x);
 }
 
-int main(void) {
+int main3_8(void) {
 	long_search();
 
 	return 0;

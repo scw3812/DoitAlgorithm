@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\chap03">
       <UniqueIdentifier>{475c6d10-37a4-4b8a-b9cb-aedd3c6e248b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chap04">
+      <UniqueIdentifier>{c5fc94d6-6fff-4d25-9dba-43bc7cd66875}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="max3.c">
@@ -129,5 +132,13 @@
     <ClCompile Include="practice4.c">
       <Filter>소스 파일\chap03</Filter>
     </ClCompile>
+    <ClCompile Include="IntStack.c">
+      <Filter>소스 파일\chap04</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IntStack.h">
+      <Filter>소스 파일\chap04</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

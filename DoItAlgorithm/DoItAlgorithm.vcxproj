@@ -136,6 +136,7 @@
     <ClCompile Include="intary_dynamic.c" />
     <ClCompile Include="intary_init.c" />
     <ClCompile Include="intdynamic.c" />
+    <ClCompile Include="IntStack.c" />
     <ClCompile Include="kuku.c" />
     <ClCompile Include="max3.c" />
     <ClCompile Include="max3comb.c" />
@@ -158,6 +159,9 @@
     <ClCompile Include="sum_for_pos.c" />
     <ClCompile Include="sum_while.c" />
     <ClCompile Include="triangleLB.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IntStack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
