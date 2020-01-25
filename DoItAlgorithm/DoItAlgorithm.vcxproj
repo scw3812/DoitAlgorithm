@@ -137,6 +137,7 @@
     <ClCompile Include="intary_init.c" />
     <ClCompile Include="intdynamic.c" />
     <ClCompile Include="IntStack.c" />
+    <ClCompile Include="IntStackTest.c" />
     <ClCompile Include="kuku.c" />
     <ClCompile Include="max3.c" />
     <ClCompile Include="max3comb.c" />

@@ -135,6 +135,9 @@
     <ClCompile Include="IntStack.c">
       <Filter>소스 파일\chap04</Filter>
     </ClCompile>
+    <ClCompile Include="IntStackTest.c">
+      <Filter>소스 파일\chap04</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IntStack.h">
