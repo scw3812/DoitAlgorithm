@@ -135,6 +135,8 @@
     <ClCompile Include="intary.c" />
     <ClCompile Include="intary_dynamic.c" />
     <ClCompile Include="intary_init.c" />
+    <ClCompile Include="IntDoubleStack.c" />
+    <ClCompile Include="IntDoubleStackTest.c" />
     <ClCompile Include="intdynamic.c" />
     <ClCompile Include="IntStack.c" />
     <ClCompile Include="IntStackTest.c" />
