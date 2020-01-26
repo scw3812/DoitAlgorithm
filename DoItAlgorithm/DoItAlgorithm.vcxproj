@@ -138,9 +138,12 @@
     <ClCompile Include="IntDoubleStack.c" />
     <ClCompile Include="IntDoubleStackTest.c" />
     <ClCompile Include="intdynamic.c" />
+    <ClCompile Include="IntQueue.c" />
+    <ClCompile Include="IntQueueTest.c" />
     <ClCompile Include="IntStack.c" />
     <ClCompile Include="IntStackTest.c" />
     <ClCompile Include="kuku.c" />
+    <ClCompile Include="last.c" />
     <ClCompile Include="max3.c" />
     <ClCompile Include="max3comb.c" />
     <ClCompile Include="med3.c" />
@@ -164,6 +167,7 @@
     <ClCompile Include="triangleLB.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="IntQueue.h" />
     <ClInclude Include="IntStack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

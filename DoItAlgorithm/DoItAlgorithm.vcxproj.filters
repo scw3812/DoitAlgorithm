@@ -144,9 +144,21 @@
     <ClCompile Include="IntDoubleStackTest.c">
       <Filter>소스 파일\chap04</Filter>
     </ClCompile>
+    <ClCompile Include="IntQueue.c">
+      <Filter>소스 파일\chap04</Filter>
+    </ClCompile>
+    <ClCompile Include="IntQueueTest.c">
+      <Filter>소스 파일\chap04</Filter>
+    </ClCompile>
+    <ClCompile Include="last.c">
+      <Filter>소스 파일\chap04</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IntStack.h">
+      <Filter>소스 파일\chap04</Filter>
+    </ClInclude>
+    <ClInclude Include="IntQueue.h">
       <Filter>소스 파일\chap04</Filter>
     </ClInclude>
   </ItemGroup>

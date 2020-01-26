@@ -37,4 +37,6 @@ void Print(const IntStack* s);
 void PrintDouble(const IntStack* s);
 
 void Terminate(IntStack* s);
+void TerminateDouble(IntStack* s1, IntStack* s2);
+
 #endif

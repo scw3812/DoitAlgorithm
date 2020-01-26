@@ -1,18 +1,18 @@
 #include <stdio.h>
 #include "IntStack.h"
 
-void menuswitch(int menu, IntStack* s) {
+void menuswitch(int menu, IntStack* s1, IntStack* s2) {
 	int x;
 	switch (menu) {
 	case 1:
 		printf("데이터 : ");
 		scanf_s("%d", &x);
-		if (PushDouble(s, x) == -1) {
+		if (PushDouble(s1, s2, x) == -1) {
 			puts("\a오류 : 푸시에 실패하였습니다.");
 		}
 		break;
 	case 2:
-		if (PopDouble(s, &x) == -1) {
+		if (PopDouble(s1, &x) == -1) {
 			puts("\a오류 : 팝에 실패하였습니다.");
 		}
 		else {
@@ -20,7 +20,7 @@ void menuswitch(int menu, IntStack* s) {
 		}
 		break;
 	case 3:
-		if (PeekDouble(s, &x) == -1) {
+		if (PeekDouble(s1, &x) == -1) {
 			puts("\a오류 : 피크에 실패하였습니다.");
 		}
 		else {
@@ -28,15 +28,15 @@ void menuswitch(int menu, IntStack* s) {
 		}
 		break;
 	case 4:
-		PrintDouble(s);
+		PrintDouble(s1);
 		break;
 	case 5:
-		Clear(s);
+		Clear(s1);
 		break;
 	case 6:
 		printf("데이터 : ");
 		scanf_s("%d", &x);
-		int i = SearchDouble(s, x);
+		int i = SearchDouble(s1, x);
 		if (i == -1) {
 			puts("\a오류 : 검색에 실패하였습니다.");
 		}
@@ -45,10 +45,10 @@ void menuswitch(int menu, IntStack* s) {
 		}
 		break;
 	case 7:
-		if (IsEmpty(s)) {
+		if (IsEmpty(s1)) {
 			puts("비어 있습니다.");
 		}
-		else if (IsFull(s)) {
+		else if (IsFull(s1)) {
 			puts("가득 차 있습니다.");
 		}
 		else {
@@ -58,7 +58,7 @@ void menuswitch(int menu, IntStack* s) {
 	}
 }
 
-int main(void) {
+int main4_2(void) {
 	IntStack s1;
 	IntStack s2;
 	if (InitializeDouble(&s1, &s2, 10) == -1) {
@@ -76,14 +76,13 @@ int main(void) {
 		printf("1? 2? : ");
 		scanf_s("%d", &stackno);
 		if (stackno == 1) {
-			menuswitch(menu, &s1);
+			menuswitch(menu, &s1, &s2);
 		}
 		else {
-			menuswitch(menu, &s2);
+			menuswitch(menu, &s2, &s1);
 		}
 	}
-	Terminate(&s1);
-	Terminate(&s2);
+	TerminateDouble(&s1, &s2);
 
 	return 0;
 }

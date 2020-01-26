@@ -17,15 +17,18 @@ int InitializeDouble(IntStack* s1, IntStack* s2, int max) {
 	return 0;
 }
 
-int PushDouble(IntStack* s, int x) {
-	if (s->ptr >= s->max) {
+int PushDouble(IntStack* s1, IntStack* s2, int x) {
+	if (s1->ptr >= s1->max) {
 		return -1;
 	}
-	if (s->sign) {
-		s->stk[s->ptr++] = x;
+	if (s1->ptr + s2->ptr == s1->max) {
+		return -1;
+	}
+	if (s1->sign) {
+		s1->stk[s1->ptr++] = x;
 	}
 	else {
-		s->stk[s->max - s->ptr++ - 1] = x;
+		s1->stk[s1->max - s1->ptr++ - 1] = x;
 	}
 	return 0;
 }
@@ -90,4 +93,11 @@ void PrintDouble(const IntStack* s) {
 		}
 		putchar('\n');
 	}
+}
+
+void TerminateDouble(IntStack* s1, IntStack* s2) {
+	if (s1->stk != NULL) {
+		free(s1->stk);
+	}
+	s1->max = s1->ptr = s2->max = s2->ptr = 0;
 }
