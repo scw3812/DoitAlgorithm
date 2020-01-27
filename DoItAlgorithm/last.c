@@ -2,7 +2,7 @@
 
 #define N 10
 
-int main() {
+int main4_4() {
 	int i;
 	int a[N];
 	int cnt = 0;

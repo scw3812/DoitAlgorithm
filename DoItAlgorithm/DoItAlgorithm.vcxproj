@@ -132,6 +132,9 @@
     <ClCompile Include="card_conv.c" />
     <ClCompile Include="dayofyear.c" />
     <ClCompile Include="dbl_digit.c" />
+    <ClCompile Include="euclid.c" />
+    <ClCompile Include="factorial.c" />
+    <ClCompile Include="hanoi.c" />
     <ClCompile Include="intary.c" />
     <ClCompile Include="intary_dynamic.c" />
     <ClCompile Include="intary_init.c" />
@@ -156,6 +159,7 @@
     <ClCompile Include="prime1.c" />
     <ClCompile Include="prime2.c" />
     <ClCompile Include="prime3.c" />
+    <ClCompile Include="recur.c" />
     <ClCompile Include="rev_ary.c" />
     <ClCompile Include="sign.c" />
     <ClCompile Include="ssearch1.c" />
