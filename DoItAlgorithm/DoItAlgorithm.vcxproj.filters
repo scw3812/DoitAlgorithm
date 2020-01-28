@@ -168,6 +168,9 @@
     <ClCompile Include="hanoi.c">
       <Filter>소스 파일\chap05</Filter>
     </ClCompile>
+    <ClCompile Include="queen.c">
+      <Filter>소스 파일\chap05</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IntStack.h">

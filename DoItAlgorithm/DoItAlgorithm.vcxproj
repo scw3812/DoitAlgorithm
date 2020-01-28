@@ -159,6 +159,7 @@
     <ClCompile Include="prime1.c" />
     <ClCompile Include="prime2.c" />
     <ClCompile Include="prime3.c" />
+    <ClCompile Include="queen.c" />
     <ClCompile Include="recur.c" />
     <ClCompile Include="rev_ary.c" />
     <ClCompile Include="sign.c" />

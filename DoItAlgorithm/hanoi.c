@@ -11,7 +11,7 @@ void move(int no, int x, int y) {
 	}
 }
 
-int main(void) {
+int main5_4(void) {
 	int n;
 	printf("하노이의 탑 \n원반 개수 : ");
 	scanf_s("%d", &n);
