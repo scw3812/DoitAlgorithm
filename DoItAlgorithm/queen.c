@@ -38,7 +38,7 @@ void set(int i) {
 	}
 }
 
-int main(void) {
+int main5_5(void) {
 	int i;
 	for (i = 0; i < 8; i++) {
 		flag_a[i] = 0;

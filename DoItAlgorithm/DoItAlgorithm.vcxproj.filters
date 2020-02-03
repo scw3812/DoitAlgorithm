@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\chap05">
       <UniqueIdentifier>{4fe1463d-c82a-4174-bc7f-c641fb057cb7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chap06">
+      <UniqueIdentifier>{8764205e-ac5a-45c3-99a5-7c2d55c38bf1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="max3.c">
@@ -170,6 +173,42 @@
     </ClCompile>
     <ClCompile Include="queen.c">
       <Filter>소스 파일\chap05</Filter>
+    </ClCompile>
+    <ClCompile Include="bubble1.c">
+      <Filter>소스 파일\chap06</Filter>
+    </ClCompile>
+    <ClCompile Include="bubble2.c">
+      <Filter>소스 파일\chap06</Filter>
+    </ClCompile>
+    <ClCompile Include="bubble3.c">
+      <Filter>소스 파일\chap06</Filter>
+    </ClCompile>
+    <ClCompile Include="insertion.c">
+      <Filter>소스 파일\chap06</Filter>
+    </ClCompile>
+    <ClCompile Include="shell.c">
+      <Filter>소스 파일\chap06</Filter>
+    </ClCompile>
+    <ClCompile Include="partition.c">
+      <Filter>소스 파일\chap06</Filter>
+    </ClCompile>
+    <ClCompile Include="quick.c">
+      <Filter>소스 파일\chap06</Filter>
+    </ClCompile>
+    <ClCompile Include="quick_nr.c">
+      <Filter>소스 파일\chap06</Filter>
+    </ClCompile>
+    <ClCompile Include="qsort1.c">
+      <Filter>소스 파일\chap06</Filter>
+    </ClCompile>
+    <ClCompile Include="qsort2.c">
+      <Filter>소스 파일\chap06</Filter>
+    </ClCompile>
+    <ClCompile Include="merge_ary.c">
+      <Filter>소스 파일\chap06</Filter>
+    </ClCompile>
+    <ClCompile Include="merge.c">
+      <Filter>소스 파일\chap06</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
